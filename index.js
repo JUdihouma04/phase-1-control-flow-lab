@@ -1,20 +1,27 @@
-function scuberGreetingForFeet(someNumber) {
+function scuberGreetingForFeet(fine) {
   // Write your code here!
-  if (someNumber === 199) {
-    return "This one is on me";
+  if (fine <= 400) {
+    return "This one is on me!";
+  } else if (fine > 2000 && fine <= 2500) {
+    return "I will gladly take your thirty bucks.";
+  } else {
+    return "No can do.";
   }
 }
+Console.log(scuberGreetingForFeet(199));
 
-function ternaryCheckCity(somenumber) {
+function ternaryCheckCity(city) {
   // Write your code here!
-  if (someNumber === 199) {
-    return "l will gladly take yyour thirty bucks";
+  if ((city = "NYC")) {
+    return "Ok, sounds good.";
+  } else {
+    return "No go.";
   }
 }
+console.log(ternaryCheckCity("NYC"));
 
-function switchOnCharmFromTip() {
+function switchOnCharmFromTip(tip) {
   // Write your code here!
-  if (someNumber === 199) {
-    return "This one is on me";
-  }
+  if(tip)
+
 }
