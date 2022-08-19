@@ -22,13 +22,12 @@ console.log(ternaryCheckCity("NYC"));
 
 function switchOnCharmFromTip(tip) {
   // Write your code here!
-  switch (tip){
-    case 'generous':
-      return "THank you so much.";
-      case "not as generous";
-      return "THank you.";
-      default:
-        return "Bye.";
+  switch (tip) {
+    case "generous":
+      return "Thank you so much.";
+    case "not as generous":
+      return "Thank you.";
+    default:
+      return "Bye.";
   }
-
 }
